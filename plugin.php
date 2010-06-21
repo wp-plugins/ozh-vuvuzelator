@@ -5,6 +5,7 @@ Plugin URI: http://planetozh.com/blog/?s=vuvuzela
 Description: Make your blog go BRRZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
 Author: Ozh
 Author URI: http://ozh.org/
+Version: 1.1
 */
 
 function ozh_vvzl_load() {
@@ -27,14 +28,9 @@ function ozh_vvzl_load() {
 	echo <<<HTML
 	
 	<div id="vuvusound">
-	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" width="1" height="1" id="1" align="middle">
-		<param name="allowScriptAccess" value="sameDomain" />
-		<param name="allowFullScreen" value="false" />
-		<param name="wmode" value="transparent"> 
-		<param name="movie" value="$plugin_url/assets/vuvuzela.swf" />
-		<param name="quality" value="high" />
-		<param name="bgcolor" value="#ffffff" />
-		<embed src="$plugin_url/assets/vuvuzela.swf" quality="high" bgcolor="#ffffff" wmode="transparent" width="1" height="1" name="1" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer" />
+	<object width="1" height="1">
+		<param name="movie" value="$plugin_url/assets/vuvuzela.swf"></param>
+		<embed src="$plugin_url/assets/vuvuzela.swf" width="1" height="1"></embed>
 	</object>
 	</div>
 
