@@ -4,6 +4,8 @@ Donate link: http://planetozh.com/exit/donate
 Requires at least: 1.5
 Tested up to: 9.9
 Stable tag: trunk
+Contributors: ozh
+
 
 Make your blog go BRRZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
 
